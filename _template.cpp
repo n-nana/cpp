@@ -14,6 +14,8 @@ int main() {
     
 //    rep(i,N) cout << "rep_test" << endl;
     
+    vector<bool> check(N);
+    
     vector<vector<char>> G(N, vector<char>(M, '#'));
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {
