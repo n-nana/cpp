@@ -5,6 +5,7 @@
 using namespace std;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 
+//const long long MOD = 998244353;
 //const int dx[] = {-1,0,0,1};
 //const int dy[] = {0,-1,1,0};
 
