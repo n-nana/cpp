@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <iostream>
+#include <cmath>
 #include <queue>
 #include <string>
 #include <vector>
@@ -17,6 +18,7 @@ int main() {
 //    rep(i,N) cout << "rep_test" << endl;
     
     vector<bool> check(N,false);
+    vector<int> res(N);
     
     vector<vector<char>> G(N, vector<char>(M, '#'));
     for (int i = 0; i < N; i++) {
